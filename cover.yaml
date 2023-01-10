@@ -1,0 +1,201 @@
+cover:
+  - platform: cover_rf_time_based
+    devices:
+      xsomfy_ch1:
+        name: xsomfy ch1
+        travelling_time_up: 9
+        travelling_time_down: 8
+        close_script_entity_id: script.somfy_ch1_down
+        stop_script_entity_id: script.somfy_ch1_stop
+        open_script_entity_id: script.somfy_ch1_up
+        send_stop_at_ends: False #optional
+        always_confident: False #optional
+        availability_template: "{{ is_state('device_tracker.nmap_tracker_c8_f0_9e_a3_56_24', 'home') }}"
+        
+  - platform: cover_rf_time_based
+    devices:
+      xsomfy_ch2:
+        name: xsomfy ch2
+        travelling_time_up: 9
+        travelling_time_down: 8
+        close_script_entity_id: script.somfy_ch2_down
+        stop_script_entity_id: script.somfy_ch2_stop
+        open_script_entity_id: script.somfy_ch2_up
+        send_stop_at_ends: False #optional
+        always_confident: False #optional
+        availability_template: "{{ is_state('device_tracker.nmap_tracker_c8_f0_9e_a3_56_24', 'home') }}"        
+  - platform: cover_rf_time_based
+    devices:
+      xsomfy_ch3:
+        name: xsomfy ch3
+        travelling_time_up: 9
+        travelling_time_down: 8
+        close_script_entity_id: script.somfy_ch3_down
+        stop_script_entity_id: script.somfy_ch3_stop
+        open_script_entity_id: script.somfy_ch3_up
+        send_stop_at_ends: False #optional
+        always_confident: False #optional
+        availability_template: "{{ is_state('device_tracker.nmap_tracker_c8_f0_9e_a3_56_24', 'home') }}"
+        
+  - platform: cover_rf_time_based
+    devices:
+      xsomfy_ch4:
+        name: xsomfy ch4
+        travelling_time_up: 9
+        travelling_time_down: 8
+        close_script_entity_id: script.somfy_ch4_down
+        stop_script_entity_id: script.somfy_ch4_stop
+        open_script_entity_id: script.somfy_ch4_up
+        send_stop_at_ends: False #optional
+        always_confident: False #optional
+        availability_template: "{{ is_state('device_tracker.nmap_tracker_c8_f0_9e_a3_56_24', 'home') }}" 
+  - platform: cover_rf_time_based
+    devices:
+      xsomfy_ch5:
+        name: xsomfy ch5
+        travelling_time_up: 9
+        travelling_time_down: 8
+        close_script_entity_id: script.somfy_ch5_down
+        stop_script_entity_id: script.somfy_ch5_stop
+        open_script_entity_id: script.somfy_ch5_up
+        send_stop_at_ends: False #optional
+        always_confident: False #optional
+        availability_template: "{{ is_state('device_tracker.nmap_tracker_c8_f0_9e_a3_56_24', 'home') }}"
+        
+  - platform: cover_rf_time_based
+    devices:
+      xsomfy_ch6:
+        name: xsomfy ch6
+        travelling_time_up: 9
+        travelling_time_down: 8
+        close_script_entity_id: script.somfy_ch6_down
+        stop_script_entity_id: script.somfy_ch6_stop
+        open_script_entity_id: script.somfy_ch6_up
+        send_stop_at_ends: False #optional
+        always_confident: False #optional
+        availability_template: "{{ is_state('device_tracker.nmap_tracker_c8_f0_9e_a3_56_24', 'home') }}"        
+  - platform: cover_rf_time_based
+    devices:
+      xsomfy_ch7:
+        name: xsomfy ch7
+        travelling_time_up: 9
+        travelling_time_down: 8
+        close_script_entity_id: script.somfy_ch7_down
+        stop_script_entity_id: script.somfy_ch7_stop
+        open_script_entity_id: script.somfy_ch7_up
+        send_stop_at_ends: False #optional
+        always_confident: False #optional
+        availability_template: "{{ is_state('device_tracker.nmap_tracker_c8_f0_9e_a3_56_24', 'home') }}"
+        
+  - platform: cover_rf_time_based
+    devices:
+      xsomfy_ch8:
+        name: xsomfy ch8
+        travelling_time_up: 9
+        travelling_time_down: 8
+        close_script_entity_id: script.somfy_ch8_down
+        stop_script_entity_id: script.somfy_ch8_stop
+        open_script_entity_id: script.somfy_ch8_up
+        send_stop_at_ends: False #optional
+        always_confident: False #optional
+        availability_template: "{{ is_state('device_tracker.nmap_tracker_c8_f0_9e_a3_56_24', 'home') }}"
+  - platform: cover_rf_time_based
+    devices:
+      xsomfy_ch9:
+        name: xsomfy ch9
+        travelling_time_up: 9
+        travelling_time_down: 8
+        close_script_entity_id: script.somfy_ch9_down
+        stop_script_entity_id: script.somfy_ch9_stop
+        open_script_entity_id: script.somfy_ch9_up
+        send_stop_at_ends: False #optional
+        always_confident: False #optional
+        availability_template: "{{ is_state('device_tracker.nmap_tracker_c8_f0_9e_a3_56_24', 'home') }}"
+        
+  - platform: cover_rf_time_based
+    devices:
+      xsomfy_ch10:
+        name: xsomfy ch10
+        travelling_time_up: 9
+        travelling_time_down: 8
+        close_script_entity_id: script.somfy_ch10_down
+        stop_script_entity_id: script.somfy_ch10_stop
+        open_script_entity_id: script.somfy_ch10_up
+        send_stop_at_ends: False #optional
+        always_confident: False #optional
+        availability_template: "{{ is_state('device_tracker.nmap_tracker_c8_f0_9e_a3_56_24', 'home') }}"        
+  - platform: cover_rf_time_based
+    devices:
+      xsomfy_ch11:
+        name: xsomfy ch11
+        travelling_time_up: 9
+        travelling_time_down: 8
+        close_script_entity_id: script.somfy_ch11_down
+        stop_script_entity_id: script.somfy_ch11_stop
+        open_script_entity_id: script.somfy_ch11_up
+        send_stop_at_ends: False #optional
+        always_confident: False #optional
+        availability_template: "{{ is_state('device_tracker.nmap_tracker_c8_f0_9e_a3_56_24', 'home') }}"
+        
+  - platform: cover_rf_time_based
+    devices:
+      xsomfy_ch12:
+        name: xsomfy ch12
+        travelling_time_up: 9
+        travelling_time_down: 8
+        close_script_entity_id: script.somfy_ch12_down
+        stop_script_entity_id: script.somfy_ch12_stop
+        open_script_entity_id: script.somfy_ch12_up
+        send_stop_at_ends: False #optional
+        always_confident: False #optional
+        availability_template: "{{ is_state('device_tracker.nmap_tracker_c8_f0_9e_a3_56_24', 'home') }}" 
+  - platform: cover_rf_time_based
+    devices:
+      xsomfy_ch13:
+        name: xsomfy ch13
+        travelling_time_up: 9
+        travelling_time_down: 8
+        close_script_entity_id: script.somfy_ch13_down
+        stop_script_entity_id: script.somfy_ch13_stop
+        open_script_entity_id: script.somfy_ch13_up
+        send_stop_at_ends: False #optional
+        always_confident: False #optional
+        availability_template: "{{ is_state('device_tracker.nmap_tracker_c8_f0_9e_a3_56_24', 'home') }}"
+        
+  - platform: cover_rf_time_based
+    devices:
+      xsomfy_ch14:
+        name: xsomfy ch14
+        travelling_time_up: 9
+        travelling_time_down: 8
+        close_script_entity_id: script.somfy_ch14_down
+        stop_script_entity_id: script.somfy_ch14_stop
+        open_script_entity_id: script.somfy_ch14_up
+        send_stop_at_ends: False #optional
+        always_confident: False #optional
+        availability_template: "{{ is_state('device_tracker.nmap_tracker_c8_f0_9e_a3_56_24', 'home') }}"        
+  - platform: cover_rf_time_based
+    devices:
+      xsomfy_ch15:
+        name: xsomfy ch15
+        travelling_time_up: 9
+        travelling_time_down: 8
+        close_script_entity_id: script.somfy_ch15_down
+        stop_script_entity_id: script.somfy_ch15_stop
+        open_script_entity_id: script.somfy_ch15_up
+        send_stop_at_ends: False #optional
+        always_confident: False #optional
+        availability_template: "{{ is_state('device_tracker.nmap_tracker_c8_f0_9e_a3_56_24', 'home') }}"
+        
+  - platform: cover_rf_time_based
+    devices:
+      xsomfy_ch16:
+        name: xsomfy ch16
+        travelling_time_up: 9
+        travelling_time_down: 8
+        close_script_entity_id: script.somfy_ch16_down
+        stop_script_entity_id: script.somfy_ch16_stop
+        open_script_entity_id: script.somfy_ch16_up
+        send_stop_at_ends: False #optional
+        always_confident: False #optional
+        availability_template: "{{ is_state('device_tracker.nmap_tracker_c8_f0_9e_a3_56_24', 'home') }}"        

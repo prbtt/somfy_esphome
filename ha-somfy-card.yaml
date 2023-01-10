@@ -1,0 +1,178 @@
+type: vertical-stack
+cards:
+  - type: horizontal-stack
+    cards:
+      - type: custom:mushroom-cover-card
+        entity: cover.xsomfy_ch1
+        show_buttons_control: true
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: button.prog1
+  - type: horizontal-stack
+    cards:
+      - type: custom:mushroom-cover-card
+        entity: cover.xsomfy_ch2
+        show_buttons_control: true
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: button.prog2
+  - type: horizontal-stack
+    cards:
+      - type: custom:mushroom-cover-card
+        entity: cover.xsomfy_ch3
+        show_buttons_control: true
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: button.prog3
+  - type: horizontal-stack
+    cards:
+      - type: custom:mushroom-cover-card
+        entity: cover.xsomfy_ch4
+        show_buttons_control: true
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: button.prog4
+  - type: horizontal-stack
+    cards:
+      - type: custom:mushroom-cover-card
+        entity: cover.xsomfy_ch5
+        show_buttons_control: true
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: button.prog5
+  - type: horizontal-stack
+    cards:
+      - type: custom:mushroom-cover-card
+        entity: cover.xsomfy_ch6
+        show_buttons_control: true
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: button.prog6
+  - type: horizontal-stack
+    cards:
+      - type: custom:mushroom-cover-card
+        entity: cover.xsomfy_ch7
+        show_buttons_control: true
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: button.prog7
+  - type: horizontal-stack
+    cards:
+      - type: custom:mushroom-cover-card
+        entity: cover.xsomfy_ch8
+        show_buttons_control: true
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: button.prog8
+  - type: horizontal-stack
+    cards:
+      - type: custom:mushroom-cover-card
+        entity: cover.xsomfy_ch9
+        show_buttons_control: true
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: button.prog9
+  - type: horizontal-stack
+    cards:
+      - type: custom:mushroom-cover-card
+        entity: cover.xsomfy_ch10
+        show_buttons_control: true
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: button.prog10
+  - type: horizontal-stack
+    cards:
+      - type: custom:mushroom-cover-card
+        entity: cover.xsomfy_ch11
+        show_buttons_control: true
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: button.prog11
+  - type: horizontal-stack
+    cards:
+      - type: custom:mushroom-cover-card
+        entity: cover.xsomfy_ch12
+        show_buttons_control: true
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: button.prog12
+  - type: horizontal-stack
+    cards:
+      - type: custom:mushroom-cover-card
+        entity: cover.xsomfy_ch13
+        show_buttons_control: true
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: button.prog13
+  - type: horizontal-stack
+    cards:
+      - type: custom:mushroom-cover-card
+        entity: cover.xsomfy_ch14
+        show_buttons_control: true
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: button.prog14
+  - type: horizontal-stack
+    cards:
+      - type: custom:mushroom-cover-card
+        entity: cover.xsomfy_ch15
+        show_buttons_control: true
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: button.prog15
+  - type: horizontal-stack
+    cards:
+      - type: custom:mushroom-cover-card
+        entity: cover.xsomfy_ch16
+        show_buttons_control: true
+      - show_name: true
+        show_icon: true
+        type: button
+        tap_action:
+          action: toggle
+        entity: button.prog16

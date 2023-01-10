@@ -1,0 +1,416 @@
+somfy_ch1_down:
+  alias: 'Somfy ch1 DOWN'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.close_cover
+      target:
+        entity_id: cover.somfy_ch1
+
+somfy_ch1_stop:
+  alias: 'Somfy ch1 STOP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.stop_cover
+      target:
+        entity_id: cover.somfy_ch1
+
+somfy_ch1_up:
+  alias: 'Somfy ch1 UP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.open_cover
+      target:
+        entity_id: cover.somfy_ch1
+somfy_ch2_down:
+  alias: 'Somfy ch2 DOWN'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.close_cover
+      target:
+        entity_id: cover.somfy_ch2
+
+somfy_ch2_stop:
+  alias: 'Somfy ch2 STOP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.stop_cover
+      target:
+        entity_id: cover.somfy_ch2
+
+somfy_ch2_up:
+  alias: 'Somfy ch2 UP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.open_cover
+      target:
+        entity_id: cover.somfy_ch2  
+somfy_ch3_down:
+  alias: 'Somfy ch3 DOWN'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.close_cover
+      target:
+        entity_id: cover.somfy_ch3
+
+somfy_ch3_stop:
+  alias: 'Somfy ch3 STOP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.stop_cover
+      target:
+        entity_id: cover.somfy_ch3
+
+somfy_ch3_up:
+  alias: 'Somfy ch3 UP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.open_cover
+      target:
+        entity_id: cover.somfy_ch3
+somfy_ch4_down:
+  alias: 'Somfy ch4 DOWN'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.close_cover
+      target:
+        entity_id: cover.somfy_ch4
+
+somfy_ch4_stop:
+  alias: 'Somfy ch4 STOP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.stop_cover
+      target:
+        entity_id: cover.somfy_ch4
+
+somfy_ch4_up:
+  alias: 'Somfy ch4 UP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.open_cover
+      target:
+        entity_id: cover.somfy_ch4
+somfy_ch5_down:
+  alias: 'Somfy ch5 DOWN'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.close_cover
+      target:
+        entity_id: cover.somfy_ch5
+
+somfy_ch5_stop:
+  alias: 'Somfy ch5 STOP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.stop_cover
+      target:
+        entity_id: cover.somfy_ch5
+
+somfy_ch5_up:
+  alias: 'Somfy ch5 UP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.open_cover
+      target:
+        entity_id: cover.somfy_ch5   
+somfy_ch6_down:
+  alias: 'Somfy ch6 DOWN'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.close_cover
+      target:
+        entity_id: cover.somfy_ch6
+
+somfy_ch6_stop:
+  alias: 'Somfy ch6 STOP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.stop_cover
+      target:
+        entity_id: cover.somfy_ch6
+
+somfy_ch6_up:
+  alias: 'Somfy ch6 UP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.open_cover
+      target:
+        entity_id: cover.somfy_ch6
+somfy_ch7_down:
+  alias: 'Somfy ch7 DOWN'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.close_cover
+      target:
+        entity_id: cover.somfy_ch7
+
+somfy_ch7_stop:
+  alias: 'Somfy ch7 STOP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.stop_cover
+      target:
+        entity_id: cover.somfy_ch7
+
+somfy_ch7_up:
+  alias: 'Somfy ch7 UP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.open_cover
+      target:
+        entity_id: cover.somfy_ch7
+somfy_ch8_down:
+  alias: 'Somfy ch8 DOWN'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.close_cover
+      target:
+        entity_id: cover.somfy_ch8
+
+somfy_ch8_stop:
+  alias: 'Somfy ch8 STOP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.stop_cover
+      target:
+        entity_id: cover.somfy_ch8
+
+somfy_ch8_up:
+  alias: 'Somfy ch8 UP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.open_cover
+      target:
+        entity_id: cover.somfy_ch8
+somfy_ch9_down:
+  alias: 'Somfy ch9 DOWN'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.close_cover
+      target:
+        entity_id: cover.somfy_ch9
+
+somfy_ch9_stop:
+  alias: 'Somfy ch9 STOP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.stop_cover
+      target:
+        entity_id: cover.somfy_ch9
+
+somfy_ch9_up:
+  alias: 'Somfy ch9 UP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.open_cover
+      target:
+        entity_id: cover.somfy_ch9
+somfy_ch10_down:
+  alias: 'Somfy ch10 DOWN'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.close_cover
+      target:
+        entity_id: cover.somfy_ch10
+
+somfy_ch10_stop:
+  alias: 'Somfy ch10 STOP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.stop_cover
+      target:
+        entity_id: cover.somfy_ch10
+
+somfy_ch10_up:
+  alias: 'Somfy ch10 UP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.open_cover
+      target:
+        entity_id: cover.somfy_ch10
+somfy_ch11_down:
+  alias: 'Somfy ch11 DOWN'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.close_cover
+      target:
+        entity_id: cover.somfy_ch11
+
+somfy_ch11_stop:
+  alias: 'Somfy ch11 STOP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.stop_cover
+      target:
+        entity_id: cover.somfy_ch11
+
+somfy_ch11_up:
+  alias: 'Somfy ch11 UP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.open_cover
+      target:
+        entity_id: cover.somfy_ch11
+somfy_ch12_down:
+  alias: 'Somfy ch12 DOWN'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.close_cover
+      target:
+        entity_id: cover.somfy_ch12
+
+somfy_ch12_stop:
+  alias: 'Somfy ch12 STOP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.stop_cover
+      target:
+        entity_id: cover.somfy_ch12
+
+somfy_ch12_up:
+  alias: 'Somfy ch12 UP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.open_cover
+      target:
+        entity_id: cover.somfy_ch12
+somfy_ch13_down:
+  alias: 'Somfy ch13 DOWN'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.close_cover
+      target:
+        entity_id: cover.somfy_ch13
+
+somfy_ch13_stop:
+  alias: 'Somfy ch13 STOP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.stop_cover
+      target:
+        entity_id: cover.somfy_ch13
+
+somfy_ch13_up:
+  alias: 'Somfy ch13 UP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.open_cover
+      target:
+        entity_id: cover.somfy_ch13
+somfy_ch14_down:
+  alias: 'Somfy ch14 DOWN'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.close_cover
+      target:
+        entity_id: cover.somfy_ch14
+
+somfy_ch14_stop:
+  alias: 'Somfy ch14 STOP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.stop_cover
+      target:
+        entity_id: cover.somfy_ch14
+
+somfy_ch14_up:
+  alias: 'Somfy ch14 UP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.open_cover
+      target:
+        entity_id: cover.somfy_ch14
+somfy_ch15_down:
+  alias: 'Somfy ch15 DOWN'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.close_cover
+      target:
+        entity_id: cover.somfy_ch15
+
+somfy_ch15_stop:
+  alias: 'Somfy ch15 STOP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.stop_cover
+      target:
+        entity_id: cover.somfy_ch15
+
+somfy_ch15_up:
+  alias: 'Somfy ch15 UP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.open_cover
+      target:
+        entity_id: cover.somfy_ch15
+somfy_ch16_down:
+  alias: 'Somfy ch16 DOWN'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.close_cover
+      target:
+        entity_id: cover.somfy_ch16
+
+somfy_ch16_stop:
+  alias: 'Somfy ch16 STOP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.stop_cover
+      target:
+        entity_id: cover.somfy_ch16
+
+somfy_ch16_up:
+  alias: 'Somfy ch16 UP'
+  mode: single
+  max_exceeded: silent
+  sequence:
+    - service: cover.open_cover
+      target:
+        entity_id: cover.somfy_ch16
