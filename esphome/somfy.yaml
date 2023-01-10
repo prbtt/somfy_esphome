@@ -1,0 +1,188 @@
+esphome:
+  name: somfy
+  platform: ESP32
+  board: esp32dev
+  libraries:
+    - EEPROM
+    - SPI
+    - SmartRC-CC1101-Driver-Lib@2.5.6
+    - Somfy_Remote_Lib@0.4.1
+  includes:
+    - somfy_secrets.h
+    - somfy_cover.h
+
+wifi:
+  ssid: !secret wifi_ssid
+  password: !secret wifi_password
+
+  # Enable fallback hotspot (captive portal) in case wifi connection fails
+  ap:
+    ssid: "somfy-bridge"
+    password: "123123123"
+
+captive_portal:
+
+# Enable logging
+logger:
+
+# Enable Home Assistant API
+api:
+
+
+ota:
+
+
+
+web_server:
+  port: 80
+
+sensor:
+  - platform: uptime
+    name: Uptime Sensor\core_configurator
+
+  - platform: wifi_signal
+    name: "WiFi Signal Sensor"
+
+
+
+
+cover:
+  - platform: custom
+    lambda: |-
+      auto somfy_remote = new SomfyESPRemote();
+      somfy_remote->add_cover("somfy", "CH1", SOMFY_CH1);
+      somfy_remote->add_cover("somfy", "CH2", SOMFY_CH2);
+      somfy_remote->add_cover("somfy", "CH3", SOMFY_CH3);
+      somfy_remote->add_cover("somfy", "CH4", SOMFY_CH4);
+      somfy_remote->add_cover("somfy", "CH5", SOMFY_CH5);
+      somfy_remote->add_cover("somfy", "CH6", SOMFY_CH6);
+      somfy_remote->add_cover("somfy", "CH7", SOMFY_CH7);
+      somfy_remote->add_cover("somfy", "CH8", SOMFY_CH8);
+      somfy_remote->add_cover("somfy", "CH9", SOMFY_CH9);
+      somfy_remote->add_cover("somfy", "CH10", SOMFY_CH10);
+      somfy_remote->add_cover("somfy", "CH11", SOMFY_CH11);
+      somfy_remote->add_cover("somfy", "CH12", SOMFY_CH12);
+      somfy_remote->add_cover("somfy", "CH13", SOMFY_CH13);
+      somfy_remote->add_cover("somfy", "CH14", SOMFY_CH14);
+      somfy_remote->add_cover("somfy", "CH15", SOMFY_CH15);
+      somfy_remote->add_cover("somfy", "CH16", SOMFY_CH16);
+      App.register_component(somfy_remote);
+      return somfy_remote->covers;
+
+    covers:
+      - id: "somfy1"
+        name: "Somfy CH1"
+      - id: "somfy2"
+        name: "Somfy CH2"
+      - id: "somfy3"
+        name: "Somfy CH3"
+      - id: "somfy4"
+        name: "Somfy CH4"
+      - id: "somfy5"
+        name: "Somfy CH5"
+      - id: "somfy6"
+        name: "Somfy CH6"
+      - id: "somfy7"
+        name: "Somfy CH7"
+      - id: "somfy8"
+        name: "Somfy CH8"
+      - id: "somfy9"
+        name: "Somfy CH9"
+      - id: "somfy10"
+        name: "Somfy CH10"
+      - id: "somfy11"
+        name: "Somfy CH11"
+      - id: "somfy12"
+        name: "Somfy CH12"
+      - id: "somfy13"
+        name: "Somfy CH13"
+      - id: "somfy14"
+        name: "Somfy CH14"
+      - id: "somfy15"
+        name: "Somfy CH15"
+      - id: "somfy16"
+        name: "Somfy CH16"
+
+
+
+button:
+  - platform: template
+    name: "PROG1"
+    on_press:
+      - lambda: |-
+          ((SomfyESPCover*)id(somfy1))->program();
+  - platform: template
+    name: "PROG2"
+    on_press:
+      - lambda: |-
+          ((SomfyESPCover*)id(somfy2))->program();
+  - platform: template
+    name: "PROG3"
+    on_press:
+      - lambda: |-
+          ((SomfyESPCover*)id(somfy3))->program();
+  - platform: template
+    name: "PROG4"
+    on_press:
+      - lambda: |-
+          ((SomfyESPCover*)id(somfy4))->program();
+  - platform: template
+    name: "PROG5"
+    on_press:
+      - lambda: |-
+          ((SomfyESPCover*)id(somfy5))->program();
+  - platform: template
+    name: "PROG6"
+    on_press:
+      - lambda: |-
+          ((SomfyESPCover*)id(somfy6))->program();
+  - platform: template
+    name: "PROG7"
+    on_press:
+      - lambda: |-
+          ((SomfyESPCover*)id(somfy7))->program();
+  - platform: template
+    name: "PROG8"
+    on_press:
+      - lambda: |-
+          ((SomfyESPCover*)id(somfy8))->program();
+  - platform: template
+    name: "PROG9"
+    on_press:
+      - lambda: |-
+          ((SomfyESPCover*)id(somfy9))->program();
+  - platform: template
+    name: "PROG10"
+    on_press:
+      - lambda: |-
+          ((SomfyESPCover*)id(somfy10))->program();
+  - platform: template
+    name: "PROG11"
+    on_press:
+      - lambda: |-
+          ((SomfyESPCover*)id(somfy11))->program();
+  - platform: template
+    name: "PROG12"
+    on_press:
+      - lambda: |-
+          ((SomfyESPCover*)id(somfy12))->program();
+  - platform: template
+    name: "PROG13"
+    on_press:
+      - lambda: |-
+          ((SomfyESPCover*)id(somfy13))->program();
+  - platform: template
+    name: "PROG14"
+    on_press:
+      - lambda: |-
+          ((SomfyESPCover*)id(somfy14))->program();
+  - platform: template
+    name: "PROG15"
+    on_press:
+      - lambda: |-
+          ((SomfyESPCover*)id(somfy15))->program();
+  - platform: template
+    name: "PROG16"
+    on_press:
+      - lambda: |-
+          ((SomfyESPCover*)id(somfy16))->program();
