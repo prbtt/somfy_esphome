@@ -10,6 +10,7 @@ esphome:
     - Somfy_Remote_Lib@0.4.1
   includes:
     - somfy_cover.h
+
 wifi:
   ap:
     manual_ip:
@@ -40,6 +41,7 @@ sensor:
   - platform: wifi_signal
     name: "WiFi Signal Sensor"
 
+
 cover:
   - platform: custom
     lambda: |-
@@ -64,15 +66,15 @@ cover:
       ESP_LOGD("somfy_addr", "Channel address: %06x", somfy_addr+13);
       ESP_LOGD("somfy_addr", "Channel address: %06x", somfy_addr+14);
       ESP_LOGD("somfy_addr", "Channel address: %06x", somfy_addr+15);
-      somfy_remote->add_cover("somfy", "CH1", somfy_addr);
-      somfy_remote->add_cover("somfy", "CH2", somfy_addr+1);
-      somfy_remote->add_cover("somfy", "CH3", somfy_addr+2);
-      somfy_remote->add_cover("somfy", "CH4", somfy_addr+3);
-      somfy_remote->add_cover("somfy", "CH5", somfy_addr+4);
-      somfy_remote->add_cover("somfy", "CH6", somfy_addr+5);
-      somfy_remote->add_cover("somfy", "CH7", somfy_addr+6);
-      somfy_remote->add_cover("somfy", "CH8", somfy_addr+7);
-      somfy_remote->add_cover("somfy", "CH9", somfy_addr+8);
+      somfy_remote->add_cover("somfy", "CH01", somfy_addr);
+      somfy_remote->add_cover("somfy", "CH02", somfy_addr+1);
+      somfy_remote->add_cover("somfy", "CH03", somfy_addr+2);
+      somfy_remote->add_cover("somfy", "CH04", somfy_addr+3);
+      somfy_remote->add_cover("somfy", "CH05", somfy_addr+4);
+      somfy_remote->add_cover("somfy", "CH06", somfy_addr+5);
+      somfy_remote->add_cover("somfy", "CH07", somfy_addr+6);
+      somfy_remote->add_cover("somfy", "CH08", somfy_addr+7);
+      somfy_remote->add_cover("somfy", "CH09", somfy_addr+8);
       somfy_remote->add_cover("somfy", "CH10", somfy_addr+9);
       somfy_remote->add_cover("somfy", "CH11", somfy_addr+10);
       somfy_remote->add_cover("somfy", "CH12", somfy_addr+11);
@@ -85,23 +87,23 @@ cover:
 
     covers:
       - id: "somfy1"
-        name: "Somfy CH1"
+        name: "Somfy CH01"
       - id: "somfy2"
-        name: "Somfy CH2"
+        name: "Somfy CH02"
       - id: "somfy3"
-        name: "Somfy CH3"
+        name: "Somfy CH03"
       - id: "somfy4"
-        name: "Somfy CH4"
+        name: "Somfy CH04"
       - id: "somfy5"
-        name: "Somfy CH5"
+        name: "Somfy CH05"
       - id: "somfy6"
-        name: "Somfy CH6"
+        name: "Somfy CH06"
       - id: "somfy7"
-        name: "Somfy CH7"
+        name: "Somfy CH07"
       - id: "somfy8"
-        name: "Somfy CH8"
+        name: "Somfy CH08"
       - id: "somfy9"
-        name: "Somfy CH9"
+        name: "Somfy CH09"
       - id: "somfy10"
         name: "Somfy CH10"
       - id: "somfy11"
@@ -123,47 +125,47 @@ button:
   - platform: factory_reset
     name: Restart with Factory Default Settings
   - platform: template
-    name: "PROG1"
+    name: "PROG01"
     on_press:
       - lambda: |-
           ((SomfyESPCover*)id(somfy1))->program();
   - platform: template
-    name: "PROG2"
+    name: "PROG02"
     on_press:
       - lambda: |-
           ((SomfyESPCover*)id(somfy2))->program();
   - platform: template
-    name: "PROG3"
+    name: "PROG03"
     on_press:
       - lambda: |-
           ((SomfyESPCover*)id(somfy3))->program();
   - platform: template
-    name: "PROG4"
+    name: "PROG04"
     on_press:
       - lambda: |-
           ((SomfyESPCover*)id(somfy4))->program();
   - platform: template
-    name: "PROG5"
+    name: "PROG05"
     on_press:
       - lambda: |-
           ((SomfyESPCover*)id(somfy5))->program();
   - platform: template
-    name: "PROG6"
+    name: "PROG06"
     on_press:
       - lambda: |-
           ((SomfyESPCover*)id(somfy6))->program();
   - platform: template
-    name: "PROG7"
+    name: "PROG07"
     on_press:
       - lambda: |-
           ((SomfyESPCover*)id(somfy7))->program();
   - platform: template
-    name: "PROG8"
+    name: "PROG08"
     on_press:
       - lambda: |-
           ((SomfyESPCover*)id(somfy8))->program();
   - platform: template
-    name: "PROG9"
+    name: "PROG09"
     on_press:
       - lambda: |-
           ((SomfyESPCover*)id(somfy9))->program();
